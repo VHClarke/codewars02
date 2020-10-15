@@ -12,6 +12,6 @@ function vowelCount(str) {
   return str.replace(/[^aeiou]/gi, "").length;
 };
 
-//or if you prefer ES6
+//ES6
 
 const vowelCount = (str) => ( str.replace(/[^aeiou]/gi,"").length )
