@@ -9,6 +9,9 @@ Input: 145263 Output: 654321
 Input: 123456789 Output: 987654321
 */
 
+
+
+
 function descendingOrder(n){
 let sortNum = n.toString().split('').sort(function (a, b) { return b - a; }).join('')
 return parseInt(sortNum)
